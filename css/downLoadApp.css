@@ -1,0 +1,110 @@
+.bgImg{
+	width: 100%;
+	height: 91%;
+	position: fixed;
+	left:0;
+	top: 0;
+	background:url(../images/downBg2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.logo{
+	background:url(../images/logo.png) no-repeat;
+	background-size:cover;
+	width: 5.12rem;
+	height: 4.3rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.56rem;
+	top: 0.9rem;
+}
+.downLayer{
+	width:100%;
+	height:100%;
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:980;
+	background:rgba(0,0,0,.6) url(../images/yindao.png) no-repeat ;
+	background-size:right top ;
+}
+.download_btn{
+	position: fixed;
+	bottom: 0rem;
+	height:9%;
+	width: 100%;
+}
+.download_btn a{
+	width: 50%;
+       float:left;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+}
+.download_btn div{
+	height: 1.5rem;
+	width: 89%;
+	font-weight: bold;
+	
+	font-size: 0.44rem;
+}
+.erWeiMa{
+	width:4.2rem;
+	height: 4.2rem;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-left: -2.1rem;
+	border: 4px solid #fff;
+}
+.anZhuo,
+.anZhuoTips{
+	line-height: 1.5rem;
+	cursor:pointer ;
+	padding-left:9%;
+	color: #4b4b4b;
+	text-align: center;
+	background-size:.52rem .56rem;
+	background-position:1.4rem center;
+	background-repeat: no-repeat;
+}
+.anZhuo{
+	border-right: 1px solid #ccc;
+	background-image: url(../images/phone.png) ;
+	cursor: pointer;
+	width:49%;
+}
+.anZhuoTips{
+	background-image: url(../images/down.png) ;
+}
+.apple{
+	color: #fff;
+	background: url(../images/iphoneDown.png) no-repeat;
+	background-size:3.85rem 1.18rem ;
+	background-position: cover;
+}
+@media only screen and (max-width: 330px) {
+	.download_btn{
+	    bottom: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.bgImg{
+		height: 100%;
+	}
+	.download_btn{
+		background: #fff;
+		bottom:2rem;
+		width: 50%;
+		left: 50%;
+		height:1.5rem;
+		margin-left: -25%;
+	}
+.anZhuo,
+.anZhuoTips{
+	
+	background-position:2rem center;
+	
+}
+}
